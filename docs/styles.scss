@@ -22,15 +22,28 @@ $very-light-gray: hsl(0,0%,95%);
     height: 50vh;
     border-radius: 5px 0 0 5px;
     padding: 50px;
+    .title{
+        text-transform: uppercase;
+    }
+    .text{
+        text-align: left;
+        letter-spacing: 0.2em;
+    }
 }
 .suvs_section{
     background-color: $primary-dark-cyan;
     color: $transparent-white-paragraphs;
     font-size: 15px;
+    .title{
+        text-transform: uppercase;
+    }
 }
 .luxury_section{
     background-color: $primary-very-dark-cyan;
     color: $transparent-white-paragraphs;
     font-size: 15px;
     border-radius: 0 5px 5px 0;
+    .title{
+        text-transform: uppercase;
+    }
 }

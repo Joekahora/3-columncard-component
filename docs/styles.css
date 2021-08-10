@@ -18,11 +18,21 @@
   border-radius: 5px 0 0 5px;
   padding: 50px;
 }
+.sedans_section .title {
+  text-transform: uppercase;
+}
+.sedans_section .text {
+  text-align: left;
+  letter-spacing: 0.2em;
+}
 
 .suvs_section {
   background-color: #006970;
   color: rgba(255, 255, 255, 0.75);
   font-size: 15px;
+}
+.suvs_section .title {
+  text-transform: uppercase;
 }
 
 .luxury_section {
@@ -30,6 +40,9 @@
   color: rgba(255, 255, 255, 0.75);
   font-size: 15px;
   border-radius: 0 5px 5px 0;
+}
+.luxury_section .title {
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -13,4 +13,24 @@ $very-light-gray: hsl(0,0%,95%);
     border: 2px solid pink;
     margin: 100px;
     padding: 50px;
+    display: flex;
+}
+.sedans_section{
+    background-color: $primary-bright-orange;
+    color: $transparent-white-paragraphs;
+    font-size: 15px;
+    height: 50vh;
+    border-radius: 5px 0 0 5px;
+    padding: 50px;
+}
+.suvs_section{
+    background-color: $primary-dark-cyan;
+    color: $transparent-white-paragraphs;
+    font-size: 15px;
+}
+.luxury_section{
+    background-color: $primary-very-dark-cyan;
+    color: $transparent-white-paragraphs;
+    font-size: 15px;
+    border-radius: 0 5px 5px 0;
 }

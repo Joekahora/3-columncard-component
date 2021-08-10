@@ -7,6 +7,29 @@
   border: 2px solid pink;
   margin: 100px;
   padding: 50px;
+  display: flex;
+}
+
+.sedans_section {
+  background-color: #e38826;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 15px;
+  height: 50vh;
+  border-radius: 5px 0 0 5px;
+  padding: 50px;
+}
+
+.suvs_section {
+  background-color: #006970;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 15px;
+}
+
+.luxury_section {
+  background-color: #004241;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 15px;
+  border-radius: 0 5px 5px 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

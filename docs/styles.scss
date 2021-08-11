@@ -14,36 +14,30 @@ $very-light-gray: hsl(0,0%,95%);
     margin: 100px;
     padding: 50px;
     display: flex;
+    height: 50vh;
+    width: 50%;
+}
+.title{
+    text-transform: uppercase;
+}
+.text{
+    text-align: left;
+    line-height: 1.5;
 }
 .sedans_section{
     background-color: $primary-bright-orange;
     color: $transparent-white-paragraphs;
-    font-size: 15px;
-    height: 50vh;
     border-radius: 5px 0 0 5px;
     padding: 50px;
-    .title{
-        text-transform: uppercase;
-    }
-    .text{
-        text-align: left;
-        letter-spacing: 0.2em;
-    }
 }
 .suvs_section{
     background-color: $primary-dark-cyan;
     color: $transparent-white-paragraphs;
-    font-size: 15px;
-    .title{
-        text-transform: uppercase;
-    }
+    padding: 50px;
 }
 .luxury_section{
     background-color: $primary-very-dark-cyan;
     color: $transparent-white-paragraphs;
-    font-size: 15px;
     border-radius: 0 5px 5px 0;
-    .title{
-        text-transform: uppercase;
-    }
+    padding: 50px;
 }

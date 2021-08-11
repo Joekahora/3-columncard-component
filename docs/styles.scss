@@ -29,15 +29,31 @@ $very-light-gray: hsl(0,0%,95%);
     color: $transparent-white-paragraphs;
     border-radius: 5px 0 0 5px;
     padding: 50px;
+    .sedans_btn{
+        color: $primary-bright-orange;
+    }
 }
 .suvs_section{
     background-color: $primary-dark-cyan;
     color: $transparent-white-paragraphs;
     padding: 50px;
+    .suvs_btn{
+        color: $primary-dark-cyan;
+    }
 }
 .luxury_section{
     background-color: $primary-very-dark-cyan;
     color: $transparent-white-paragraphs;
     border-radius: 0 5px 5px 0;
     padding: 50px;
+    .luxury_btn{
+        color: $primary-very-dark-cyan;
+    }
+}
+.learn_more_btn{
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 50%;
+    height: 30px;
+    background-color: $very-light-gray;
 }

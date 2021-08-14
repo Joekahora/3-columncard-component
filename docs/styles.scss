@@ -11,7 +11,7 @@ $very-light-gray: hsl(0,0%,95%);
 
 .container{
     // border: 2px solid pink;
-    margin: 100px;
+    margin: 70px;
     // padding: 100px;
     display: flex;
     justify-content: center;
@@ -19,7 +19,11 @@ $very-light-gray: hsl(0,0%,95%);
     // height: 50vh;
     // width: 100%;
 }
+svg{
+    padding-bottom: 1.8rem;
+}
 .title{
+    padding-bottom: 1.8rem;
     text-transform: uppercase;
     font-family: "Big Shoulders Display", sans-serif;
     font-weight: 700;
@@ -35,7 +39,8 @@ $very-light-gray: hsl(0,0%,95%);
     background-color: $primary-bright-orange;
     color: $transparent-white-paragraphs;
     border-radius: 5px 0 0 5px;
-    width: 25%;
+    width: 200px;
+    height: 100%;
     padding: 50px;
     .sedans_btn{
         color: $primary-bright-orange;
@@ -48,7 +53,8 @@ $very-light-gray: hsl(0,0%,95%);
     background-color: $primary-dark-cyan;
     color: $transparent-white-paragraphs;
     padding: 50px;
-    width: 25%;
+    width: 200px;
+    height: 100%;
     .suvs_btn{
         color: $primary-dark-cyan;
     }
@@ -61,7 +67,8 @@ $very-light-gray: hsl(0,0%,95%);
     color: $transparent-white-paragraphs;
     border-radius: 0 5px 5px 0;
     padding: 50px;
-    width: 25%;
+    width: 200px;
+    height: 100%;
     .luxury_btn{
         color: $primary-very-dark-cyan;
     }
@@ -73,11 +80,12 @@ $very-light-gray: hsl(0,0%,95%);
     margin-top: 150px;
     border: 1px solid white;
     border-radius: 25px;
-    width: 50%;
-    height: 30px;
+    width: 75%;
+    height: 40px;
     background-color: $very-light-gray;
 }
 .learn_more_btn:hover{
     border: 1px solid white;
     color: white;
+    cursor: pointer;
 }

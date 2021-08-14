@@ -6,19 +6,21 @@
 .container {
   border: 2px solid pink;
   margin: 100px;
-  padding: 50px;
   display: flex;
-  height: 50vh;
-  width: 50%;
 }
 
 .title {
   text-transform: uppercase;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
 }
 
 .text {
   text-align: left;
   line-height: 1.5;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .sedans_section {

@@ -172,5 +172,94 @@
     cursor: pointer;
   }
 }
+@media (max-width: 600px) {
+  .container {
+    border: 1px solid red;
+    background-color: royalblue;
+    margin: 25px;
+    max-width: 375px;
+    display: block;
+    justify-content: center;
+    align-content: center;
+  }
+
+  svg {
+    padding-bottom: 1.6rem;
+  }
+
+  .title {
+    padding-bottom: 1.8rem;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+  }
+
+  .text {
+    text-align: left;
+    line-height: 1.5;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .sedans_section {
+    background-color: #e38826;
+    color: rgba(255, 255, 255, 0.75);
+    border-radius: 5px 0 0 5px;
+    width: 250px;
+    height: 100%;
+    padding: 50px;
+  }
+  .sedans_section .sedans_btn {
+    color: #e38826;
+  }
+  .sedans_section .sedans_btn:active {
+    background-color: #e38826;
+  }
+
+  .suvs_section {
+    background-color: #006970;
+    color: rgba(255, 255, 255, 0.75);
+    padding: 50px;
+    width: 200px;
+    height: 100%;
+  }
+  .suvs_section .suvs_btn {
+    color: #006970;
+  }
+  .suvs_section .suvs_btn:active {
+    background-color: #006970;
+  }
+
+  .luxury_section {
+    background-color: #004241;
+    color: rgba(255, 255, 255, 0.75);
+    border-radius: 0 5px 5px 0;
+    padding: 50px;
+    width: 200px;
+    height: 100%;
+  }
+  .luxury_section .luxury_btn {
+    color: #004241;
+  }
+  .luxury_section .luxury_btn:active {
+    background-color: #004241;
+  }
+
+  .learn_more_btn {
+    margin-top: 100px;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 75%;
+    height: 40px;
+    background-color: #f2f2f2;
+  }
+
+  .learn_more_btn:active {
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -88,8 +88,7 @@ $very-light-gray: hsl(0,0%,95%);
     }
 }
 
-@media(max-width: 1400px){
-    
+@media(max-width: 1400px){    
     .container{
         border-radius: 5px;
         margin: 50px 250px;
@@ -169,79 +168,84 @@ $very-light-gray: hsl(0,0%,95%);
         cursor: pointer;
     }
 }
-// .container{
-//     margin: 70px;
-//     display: flex;
-//     justify-content: center;
-//     align-content: center;
-// }
-// svg{
-//     padding-bottom: 1.8rem;
-// }
-// .title{
-//     padding-bottom: 1.8rem;
-//     text-transform: uppercase;
-//     font-family: "Big Shoulders Display", sans-serif;
-//     font-weight: 700;
-// }
-// .text{
-//     text-align: left;
-//     line-height: 1.5;
-//     font-family: "Lexend Deca";
-//     font-size: 15px;
-//     font-weight: 400;
-// }
-// .sedans_section{
-//     background-color: $primary-bright-orange;
-//     color: $transparent-white-paragraphs;
-//     border-radius: 5px 0 0 5px;
-//     width: 200px;
-//     height: 100%;
-//     padding: 50px;
-//     .sedans_btn{
-//         color: $primary-bright-orange;
-//     }
-//     .sedans_btn:active{
-//         background-color: $primary-bright-orange;
-//     }
-// }
-// .suvs_section{
-//     background-color: $primary-dark-cyan;
-//     color: $transparent-white-paragraphs;
-//     padding: 50px;
-//     width: 200px;
-//     height: 100%;
-//     .suvs_btn{
-//         color: $primary-dark-cyan;
-//     }
-//     .suvs_btn:active{
-//         background-color: $primary-dark-cyan;
-//     }
-// }
-// .luxury_section{
-//     background-color: $primary-very-dark-cyan;
-//     color: $transparent-white-paragraphs;
-//     border-radius: 0 5px 5px 0;
-//     padding: 50px;
-//     width: 200px;
-//     height: 100%;
-//     .luxury_btn{
-//         color: $primary-very-dark-cyan;
-//     }
-//     .luxury_btn:active{
-//         background-color: $primary-very-dark-cyan;
-//     }
-// }
-// .learn_more_btn{
-//     margin-top: 150px;
-//     border: 1px solid white;
-//     border-radius: 25px;
-//     width: 75%;
-//     height: 40px;
-//     background-color: $very-light-gray;
-// }
-// .learn_more_btn:active{
-//     border: 1px solid white;
-//     color: white;
-//     cursor: pointer;
-// }
+@media(max-width: 600px){
+    .container{
+        border: 1px solid red;
+        background-color: royalblue;
+        margin: 25px;
+        max-width: 375px;
+        display: block;
+        justify-content: center;
+        align-content: center;
+    }
+    svg{
+        padding-bottom: 1.6rem;
+    }
+    .title{
+        padding-bottom: 1.8rem;
+        text-transform: uppercase;
+        font-family: "Big Shoulders Display", sans-serif;
+        font-weight: 700;
+    }
+    .text{
+        text-align: left;
+        line-height: 1.5;
+        font-family: "Lexend Deca";
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .sedans_section{
+        background-color: $primary-bright-orange;
+        color: $transparent-white-paragraphs;
+        border-radius: 5px 0 0 5px;
+        width: 250px;
+        height: 100%;
+        padding: 50px;
+        .sedans_btn{
+            color: $primary-bright-orange;
+        }
+        .sedans_btn:active{
+            background-color: $primary-bright-orange;
+        }
+    }
+    .suvs_section{
+        background-color: $primary-dark-cyan;
+        color: $transparent-white-paragraphs;
+        padding: 50px;
+        width: 200px;
+        height: 100%;
+        .suvs_btn{
+            color: $primary-dark-cyan;
+        }
+        .suvs_btn:active{
+            background-color: $primary-dark-cyan;
+        }
+    }
+    .luxury_section{
+        background-color: $primary-very-dark-cyan;
+        color: $transparent-white-paragraphs;
+        border-radius: 0 5px 5px 0;
+        padding: 50px;
+        width: 200px;
+        height: 100%;
+        .luxury_btn{
+            color: $primary-very-dark-cyan;
+        }
+        .luxury_btn:active{
+            background-color: $primary-very-dark-cyan;
+        }
+    }
+    .learn_more_btn{
+        margin-top: 100px;
+        border: 1px solid white;
+        border-radius: 25px;
+        width: 75%;
+        height: 40px;
+        background-color: $very-light-gray;
+    }
+    .learn_more_btn:active{
+        border: 1px solid white;
+        color: white;
+        cursor: pointer;
+    }
+}

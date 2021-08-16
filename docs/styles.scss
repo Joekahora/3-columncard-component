@@ -45,7 +45,7 @@ svg{
     .sedans_btn{
         color: $primary-bright-orange;
     }
-    .sedans_btn:hover{
+    .sedans_btn:active{
         background-color: $primary-bright-orange;
     }
 }
@@ -58,7 +58,7 @@ svg{
     .suvs_btn{
         color: $primary-dark-cyan;
     }
-    .suvs_btn:hover{
+    .suvs_btn:active{
         background-color: $primary-dark-cyan;
     }
 }
@@ -72,7 +72,7 @@ svg{
     .luxury_btn{
         color: $primary-very-dark-cyan;
     }
-    .luxury_btn:hover{
+    .luxury_btn:active{
         background-color: $primary-very-dark-cyan;
     }
 }
@@ -84,7 +84,7 @@ svg{
     height: 40px;
     background-color: $very-light-gray;
 }
-.learn_more_btn:hover{
+.learn_more_btn:active{
     border: 1px solid white;
     color: white;
     cursor: pointer;

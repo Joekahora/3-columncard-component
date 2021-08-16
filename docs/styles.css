@@ -40,7 +40,7 @@ svg {
 .sedans_section .sedans_btn {
   color: #e38826;
 }
-.sedans_section .sedans_btn:hover {
+.sedans_section .sedans_btn:active {
   background-color: #e38826;
 }
 
@@ -54,7 +54,7 @@ svg {
 .suvs_section .suvs_btn {
   color: #006970;
 }
-.suvs_section .suvs_btn:hover {
+.suvs_section .suvs_btn:active {
   background-color: #006970;
 }
 
@@ -69,7 +69,7 @@ svg {
 .luxury_section .luxury_btn {
   color: #004241;
 }
-.luxury_section .luxury_btn:hover {
+.luxury_section .luxury_btn:active {
   background-color: #004241;
 }
 
@@ -82,7 +82,7 @@ svg {
   background-color: #f2f2f2;
 }
 
-.learn_more_btn:hover {
+.learn_more_btn:active {
   border: 1px solid white;
   color: white;
   cursor: pointer;

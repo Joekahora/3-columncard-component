@@ -174,21 +174,19 @@
 }
 @media (max-width: 600px) {
   .container {
-    border: 1px solid red;
-    background-color: royalblue;
-    margin: 25px;
-    max-width: 375px;
+    margin: 25px auto;
+    max-width: 300px;
     display: block;
     justify-content: center;
     align-content: center;
   }
 
   svg {
-    padding-bottom: 1.6rem;
+    padding-bottom: 1.2rem;
   }
 
   .title {
-    padding-bottom: 1.8rem;
+    padding-bottom: 1.2rem;
     text-transform: uppercase;
     font-family: "Big Shoulders Display", sans-serif;
     font-weight: 700;
@@ -205,8 +203,7 @@
   .sedans_section {
     background-color: #e38826;
     color: rgba(255, 255, 255, 0.75);
-    border-radius: 5px 0 0 5px;
-    width: 250px;
+    border-radius: 5px 5px 0 0;
     height: 100%;
     padding: 50px;
   }
@@ -221,7 +218,6 @@
     background-color: #006970;
     color: rgba(255, 255, 255, 0.75);
     padding: 50px;
-    width: 200px;
     height: 100%;
   }
   .suvs_section .suvs_btn {
@@ -234,9 +230,8 @@
   .luxury_section {
     background-color: #004241;
     color: rgba(255, 255, 255, 0.75);
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 0 5px 5px;
     padding: 50px;
-    width: 200px;
     height: 100%;
   }
   .luxury_section .luxury_btn {
@@ -247,7 +242,7 @@
   }
 
   .learn_more_btn {
-    margin-top: 100px;
+    margin-top: 70px;
     border: 1px solid white;
     border-radius: 25px;
     width: 75%;

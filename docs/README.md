@@ -28,3 +28,17 @@ Users should be able to:
 
 ![mobileviewscreenshot](./images/mobilescreenshot.png)
 ![desktop-screenshot](./images/desktop-screenshot.png)
+
+### Links
+- Solution URL: [The Solution]()
+- Live Site URL: [Live Site](https://joekahora.github.io/3-columncard-component)
+
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS preprocessor SASS
+- Flexbox
+- Desktop-first workflow

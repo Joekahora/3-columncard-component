@@ -42,3 +42,17 @@ Users should be able to:
 - CSS preprocessor SASS
 - Flexbox
 - Desktop-first workflow
+
+### What i learned
+
+- To Use Flexbox efficently
+- Changing the display property to block for each section to stack on top of each other i.e
+ ```css
+    .container{
+        margin: 2rem auto;
+        max-width: 300px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+ ```

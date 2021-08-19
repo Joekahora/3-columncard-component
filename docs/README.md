@@ -15,4 +15,16 @@ This is a solution [3-column preview card component challenge on Frontend Mentor
 - [Author](#author)
 - [Acknowledgements](#acknowledgements)
 
+## Overview
 
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- Upon Clicking the button the background color changes indicating it is active
+
+### Screenshot
+
+![mobileviewscreenshot](./images/mobilescreenshot.png)
+![desktop-screenshot](./images/desktop-screenshot.png)

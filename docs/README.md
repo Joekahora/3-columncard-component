@@ -56,3 +56,8 @@ Users should be able to:
         align-items: center;
     }
  ```
+
+ ### Continued development
+
+I'll continue focusing on learning to use flexbox efficently and also try to understand the difference between justify-content and align-content properties in css.
+

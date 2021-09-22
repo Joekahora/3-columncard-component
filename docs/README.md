@@ -61,3 +61,7 @@ Users should be able to:
 
 I'll continue focusing on learning to use flexbox efficently and also try to understand the difference between justify-content and align-content properties in css.
 
+## Author 
+
+ - Frontend Mentor - [JoeKahora](https://www.frontendmentor.io/profile/Joekahora)
+ - Github - [JoeKahora](https://www.github.com/Joekahora)
